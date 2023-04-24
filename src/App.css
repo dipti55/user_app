@@ -1,0 +1,10 @@
+.App{
+  text-align: center;
+}
+
+/* to remove arrows/spinners from input type number with CSS. */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

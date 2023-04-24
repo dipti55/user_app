@@ -1,0 +1,65 @@
+
+.Dashboard{
+    text-align: center;
+
+}
+.table{
+    /* background-color: red; */
+    width: 100%;
+}
+.CTARow{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem auto;
+  
+
+}
+.CTARow>input{
+    padding: 0.3rem;
+    outline: none;
+    border-radius: 3px;
+    border: none;
+    color: black;
+    border: 1px solid gray;
+    width: 30%;
+}
+
+.CTARow>input:focus{
+  
+    border: 1px solid green;
+}
+
+.newUser{
+    background-color: blue;
+    padding: 1rem;
+    border-radius: 3px;
+    text-decoration: none;
+    color: white;
+}
+
+#editBtn, 
+#deleteBtn{
+    padding: 0.3rem 0.5rem;
+    width: 70%;
+    outline: none;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    margin: 0.3rem auto;
+    text-decoration: none;
+}
+#editBtn{
+background-color: green;
+/* width: 80%!important; */
+}
+#deleteBtn{
+background-color: red;
+}
+
+@media only screen and (max-width:600px){
+    .table{
+     width: 90%;
+    }
+}
